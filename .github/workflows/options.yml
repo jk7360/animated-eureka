@@ -30,5 +30,5 @@ jobs:
       - name: Upload CSV artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Options-1-csv
-          path: *.csv
+          name: Daily-Options-CSVs
+          path: '*_options_*.csv'
